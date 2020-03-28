@@ -6,16 +6,19 @@ Dependências principais: Node, React, ReactNative, Express, Knex, Celebrate, Su
 
 
 ## Funcionalidades
-* Cadastrar ONGS
+> Web
+* Cadastrar ONG'S
 * Cadastrar novos casos
 * Listar casos cadastrados
-* Excluir casos
-* Entrar em contato por WhatsApp em um caso
-* Enviar e-mail de um caso
+* Excluir casos cadastrados
+> App
+* Listar todos os casos disponíveis
+* Entrar em contato por WhatsApp do caso de interesse
+* Entrar em contato por E-mail do caso de interesse
 
 
 O Objetivo principal deste projeto é disponibilizar uma área Web onde é possível as ONG's se cadastrarem e criarem os casos que irão necessitar de ajuda da comunidade. 
-Os interessados em ajudar, nossos heróis, terão a seu dispor um App para listar os casos disponíveis e entrarem em contato através do WhatsApp ou E-mail, afim de ajudar as ONG's a combater aquele caso.
+Os interessados em ajudar, nossos heróis, terão a seu dispor um App para listar os casos disponíveis e entrarem em contato através do WhatsApp ou E-mail, afim de ajudar a ONG escolhida a combater aquele caso selecionado.
 
 
 ## Dicas de instalação

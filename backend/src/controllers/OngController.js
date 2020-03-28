@@ -6,6 +6,13 @@ module.exports = {
         //Desestruturação
         const {name, email, whatsapp, city, uf } = request.body;
 
+        //Não posso deixar existir 02 ongs cadastradas no mesmo e-mail
+        const sql = await connection('ongs').select('email').where('email', email).first();
+
+        if(sql){
+            return response.status(422).json({error: 'E-mail found in database for another ONG!'});
+        }
+
         const id = crypto.randomBytes(4).toString('HEX');
 
         await connection('ongs').insert({

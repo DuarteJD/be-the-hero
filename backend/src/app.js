@@ -37,4 +37,4 @@ app.use(errors())
   * http://knexjs.org/
   */
 
-app.listen(3333);
+module.exports = app;
